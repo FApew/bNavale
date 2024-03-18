@@ -1,4 +1,4 @@
-const socket = new io("ws://localhost:3500")
+const socket = new io("https://bnavale.onrender.com/")
 
 function sendMessage(e) {
     e.preventDefault()
